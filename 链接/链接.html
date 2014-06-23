@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<style type="text/css">
+			p:hover {
+				background: red;
+			}
+			p:active {
+				background: green;
+			}
+			input:focus {
+				background: yellow;
+			}
+			a:link {
+				background: yellow;
+			}
+			a:visited {
+				background: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<p>:hover,:active,:focus理论上用于任何元素。</p>
+		<p>IE6只支持active，hover；IE7只能支持hover</p>
+		<p>hover:悬停时的样式；active：点击时未放掉的样式</p>
+		<input type = "text" value = "focus时的样式" />
+		<br>
+		<a href="#">:link和:visit只用于链接元素a;link表示为点击时的样式，visited表示点击过后的</a>
+	</body>
+</html>
